@@ -6,5 +6,6 @@ import (
 )
 
 func main() {
-	variables.MuestroVariables()
+	//variables.MuestroVariables()
+	variables.RestoVariables()
 }
