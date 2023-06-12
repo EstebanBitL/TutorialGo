@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"tutorialGo/ejercicios"
+	"tutorialGo/teclado"
 	//"tutorialGo/variables"
 )
 
@@ -27,6 +26,8 @@ func main() {
 		fmt.Println("%s \n", os)
 	}*/
 
-	numero, texto := ejercicios.ConvNumericos("holaa")
-	fmt.Println(numero, texto)
+	//numero, texto := ejercicios.ConvNumericos("holaa")
+	//fmt.Println(numero, texto)
+
+	teclado.IngresarNumero()
 }
