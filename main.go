@@ -2,7 +2,8 @@ package main
 
 import (
 	//"tutorialGo/variables"
-	"tutorialGo/ejercicios"
+
+	"tutorialGo/files"
 )
 
 func main() {
@@ -31,7 +32,13 @@ func main() {
 
 	teclado.IngresarNumero()
 
-	iteraciones.Iterar()*/
+	iteraciones.Iterar()
 
-	ejercicios.TabladeMultiplicar()
+	fmt.Println(ejercicios.TabladeMultiplicar())*/
+
+	//files.GrabaTabla()
+
+	//files.SumaTabla()
+
+	files.LeerArchivo()
 }

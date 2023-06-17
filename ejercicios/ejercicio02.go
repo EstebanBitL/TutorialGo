@@ -7,11 +7,13 @@ import (
 	"strconv"
 )
 
-func TabladeMultiplicar() {
+func TabladeMultiplicar() string {
 	scanner := bufio.NewScanner(os.Stdin)
 
 	var numero int
 	var err error
+	var texto string
+
 	for {
 		fmt.Println("Ingrese un numero: ")
 		if scanner.Scan() {
@@ -24,6 +26,8 @@ func TabladeMultiplicar() {
 		}
 	}
 	for i := 1; i <= 10; i++ {
-		fmt.Printf("%d x %d = %d\n", numero, i, numero*i)
+		//aca concateno con += y guardo el print en la var texto con Sprintf
+		texto += fmt.Sprintf("%d x %d = %d\n", numero, i, numero*i)
 	}
+	return texto
 }
