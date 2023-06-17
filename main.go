@@ -2,7 +2,7 @@ package main
 
 import (
 	//"tutorialGo/variables"
-	"tutorialGo/iteraciones"
+	"tutorialGo/ejercicios"
 )
 
 func main() {
@@ -29,7 +29,9 @@ func main() {
 	//numero, texto := ejercicios.ConvNumericos("holaa")
 	//fmt.Println(numero, texto)
 
-	teclado.IngresarNumero()*/
+	teclado.IngresarNumero()
 
-	iteraciones.Iterar()
+	iteraciones.Iterar()*/
+
+	ejercicios.TabladeMultiplicar()
 }
