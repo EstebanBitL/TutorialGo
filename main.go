@@ -1,8 +1,8 @@
 package main
 
 import (
-	"tutorialGo/teclado"
 	//"tutorialGo/variables"
+	"tutorialGo/iteraciones"
 )
 
 func main() {
@@ -24,10 +24,12 @@ func main() {
 		fmt.Println("Esta en darwin")
 	default:
 		fmt.Println("%s \n", os)
-	}*/
+	}
 
 	//numero, texto := ejercicios.ConvNumericos("holaa")
 	//fmt.Println(numero, texto)
 
-	teclado.IngresarNumero()
+	teclado.IngresarNumero()*/
+
+	iteraciones.Iterar()
 }
